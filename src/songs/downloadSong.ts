@@ -4,7 +4,7 @@ import { fetchSongTxt } from "./fetchSongTxt.js"
 import { mkdirSync, writeFileSync } from "node:fs"
 import { fetchSongYouTubeLink } from "./fetchSongYouTubeLink.js";
 import { createWriteStream } from 'node:fs'
-import ytdl from "ytdl-core";
+import ytdl from "@distube/ytdl-core";
 import { prompt } from "../index.js";
 
 /**
